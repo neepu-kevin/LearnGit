@@ -1,6 +1,20 @@
-$ cat readme.txt
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 Git has a mutable index called stage.
 Git tracks changes of files.
 My stupid boss still prefers SVN.
+https://liaoxuefeng.com/books/git/remote/add-remote/index.html
+git add .
+git commit -m "说明文档"
+git reset --hard HEAD^ 
+git status //查看状态
+git checkout -- test.txt //还原版本
+git diff HEAD -- readme.txt //查看区别
+git log //版本id
+git reflog //操作id
+git reset --hard ID
+git rm test.txt //删除
+git remote add origin git@github.com:michaelliao/learngit.git //绑定github仓库
+git push -u origin master //上传代码 git master github main
+git remote -v
+
